@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splashgradient"
+    tools:context="com.example.user10.keerat.activity.splash.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:layout_gravity="center"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="81dp"/>
+
+    <TextView
+        android:id="@+id/tv_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.02"
+        android:gravity="center_horizontal"
+        android:text="@string/splash"
+        android:layout_gravity="center"
+        android:layout_marginTop="119dp" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

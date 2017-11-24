@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.user10.keerat.activity.activity.OtpConfirmationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="@string/onetimepass"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME REMAINIG : "
+
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="39dp"
+        android:isScrollContainer="false"
+        android:background="@drawable/rounded_edittext"
+        android:hint="ENTER OTP"
+        android:inputType="number"
+        android:padding="18dp"
+        android:clickable="true"
+        android:paddingLeft="22dp"
+        android:textColorHint="#fe7a47"
+        android:textSize="14sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_enterotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESEND OTP"
+        android:layout_marginTop="35dp"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_submitotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:text="@string/submit"
+        android:ems="8"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:padding="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

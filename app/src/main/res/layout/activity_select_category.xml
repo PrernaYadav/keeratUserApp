@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.user10.keerat.activity.activity.SelectCategoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/selectcategory"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="114dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category_array"
+        android:prompt="@string/select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="68dp"
+        android:padding="16dp"
+        android:background="@drawable/drop_down_style"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/register_array"
+        android:prompt="@string/select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:background="@drawable/drop_down_style"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp">
+
+    </Spinner>
+
+
+    <TextView
+        android:id="@+id/tv_longtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="@string/longtext"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:maxLines="3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/btn_refnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#80000000"
+        android:textSize="14sp"
+        android:text="@string/refnum"
+        android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/btn_refnumm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#80000000"
+            android:textSize="14sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/refnumm"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons_8_share"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

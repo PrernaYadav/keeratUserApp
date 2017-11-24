@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background"
+    tools:context="com.example.user10.keerat.activity.activity.MobileOrEmailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/otptext"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="114dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <!--   <EditText
+                   android:id="@+id/et_mobilenum"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="30dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="24dp"
+                   android:isScrollContainer="false"
+                   android:textColor="@color/white"
+                   android:background="@drawable/roundedet_border"
+                   android:hint="@string/mobile"
+                   android:inputType="number"
+                   android:padding="15dp"
+                   android:clickable="true"
+                   android:paddingLeft="22dp"
+                   android:textColorHint="@color/hintcolor"
+                   android:textSize="14sp"
+                   />
+
+
+               <TextView
+                   android:id="@+id/tv_or"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:text="OR"
+                   android:textColor="@android:color/white"
+                   android:textSize="16sp"
+                   android:textStyle="bold"
+                   android:layout_marginTop="20dp"/>
+
+
+
+
+               <EditText
+                   android:id="@+id/et_email"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="30dp"
+                   android:layout_marginRight="30dp"
+                   android:layout_marginTop="24dp"
+                   android:isScrollContainer="false"
+                   android:textColor="@color/white"
+                   android:background="@drawable/roundedet_border"
+                   android:hint="@string/emailotp"
+                   android:inputType="textEmailAddress"
+                   android:padding="15dp"
+                   android:paddingLeft="22dp"
+                   android:clickable="true"
+                   android:textColorHint="@color/hintcolor"
+                   android:textSize="14sp"
+                   android:visibility="visible"/>-->
+
+
+            <RadioGroup
+                android:id="@+id/rg_mobemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+
+                <RadioButton
+                    android:id="@+id/rb_mob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:buttonTint="@android:color/white"
+                    android:checked="false" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mobile"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+
+
+
+
+                <RadioButton
+                    android:id="@+id/rb_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:buttonTint="@android:color/white"
+                    android:checked="false" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Email Id"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+            </RadioGroup>
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:text="@string/submit"
+                android:ems="8"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="140dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white" />
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

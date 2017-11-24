@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowdetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_nameofprogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/nameofprogram"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_dateandtiming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/dateandtiming"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_otherdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/otherdetails"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

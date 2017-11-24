@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">KeeratUserApp</string>
+    //splash
+    <string name="splash">© keerat Service 2017 Beta</string>
+    <string name="registeryourservice">Register Your Service And
+Get Access To Wide Audience</string>
+    <string name="skip">Skip</string>
+    <string name="contibution">Contribute Or Become A Volunteer,
+Shop For Sikhism Products,
+Provide Sewa And
+Free Food Availablity. </string>
+    <string name="getconnected">Get Connected To Gurudwara Sahib,
+Medical Aid Programmes,
+Societies, etc.</string>
+
+    //Login page
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="forgotpasswod">Forgot Password</string>
+    <string name="login">Login</string>
+
+    <string name="newuser">New User</string>
+    <string name="termcondition">Term and Conditions</string>
+
+    //signup
+
+    <string name="setemail">Set Email</string>
+    <string name="setpassword">Set Password</string>
+    <string name="loginwith">Or Login With</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="reference">Reference Number</string>
+    <string name="signup">Sign Up</string>
+
+    //otp
+    <string name="otptext">OTP WILL BE SENT TO MOBILE NUMBER</string>
+    <string name="mobile">Enter Mobile Number</string>
+    <string name="emailotp">Enter Email Id</string>
+    <string name="enterotp">Enter OTP</string>
+    <string name="sendagain">Send Again</string>
+    <string name="longtext">Sharing Your Refernece Number To Others
+Will Earn You Credits. You Can Use Credits
+To Shop Anything From Keerat Shop.</string>
+
+    <string name="refnum">Your Reference Number is</string>
+    <string name="refnumm">1313AXQUI</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="thnku">Thank You For Registering With Keerat Service.
+We Are Glad To Have You. This Is A Beta Version, Kindly Wait For The Next Update To Connect With Keerat Users Looking For Your Services.</string>
+
+
+    <string name="selectcategory">SELECT CATEGORY</string>
+
+    <string name="select">Choose a country</string>
+    <string-array name="category_array">
+        <!--
+        <itemm>Register As Service Provider</itemm>
+-->
+        <item>Raagi Jatha</item>
+        <item>Dhaadi Jatha</item>
+        <item>Kathavachak</item>
+        <item>Pracharak</item>
+        <item>Kavishar</item>
+        <item>Granthi Sahib</item>
+        <item>Sewadaar Ji</item>
+
+        <item>Pathis</item>
+        <item>Guitar/Sitar Player</item>
+        <item>Tablavachak</item>
+        <item>Gatka Party</item>
+        <item>Hall Booking</item>
+        <item>Joda Ghar Jatha</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="register_array">
+        <item>Register Gurudwara Sahi</item>
+        <item>United Kingdom</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Turkey</item>
+        <item>Poland</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="terms">Terms And Conditions</string>
+
+    <string name="termsandconditions">How many free autoresponders have you tried? Really how many? And how many emails did you get through using them? How do you know? How many people opened your followup message?
+
+My point here is that if you have no clue for the answers above you probably are not operating a followup campaign successfully. These are crucial element that must be explored when you are choosing an autoresponder.
+
+Some good steps to take to ensure you are getting what you need out of a autoresponder include… Compare your autoresponder with those of top marketers, chances are they are using the best in the business. You can’t go wrong with this step!
+
+Other observations you might make are related to spam filters. Have you ever gotten an e-mail and seen something like this…”F`R`E`E” Yes this is a good way to beat the spam filters as they won’t read Free they will read something totally different. However it can be time consuming going through your article and finding which words are “Danger” words. This can go along way in your marketing efforts. So make sure you find an autoresponder that has a spam rating feature… these features will automatically show you where in your article your “Danger” words are.
+
+Another crucial element of e-mail marketing are your statistics. How many e-mails are being opened can tell you if your subject line is any good or if you did a good job branding your name. If you know your e-mail statistics you are one step in the right direction in optimizing your potential sales. Finding an autoresponder that shows in depth analysis with your followups are also key.
+
+What should a followup contain? Good question… My personally experience suggests directing your subscribers to a full article located on the web. There are some good reasons for this. You can create an excitement teaser in the followup e-mail and beg your article to be read on the web. There is also the chance that since you have an article archive on the web many subscribers will often read more than just your original article. Your subscriber might not be interested in one article but they may find what they are looking for browsing through your previous articles.
+
+Broadcasting! So your subscribers are finished receiving their original followup series… now what? Find an auto responder that allows you to broadcast an update or an offer to the entire subscriber list. Don’t let your subscribers go to waste, this feature is a must!
+
+Remember not to bore your hard earned subscribers. Present them with a problem and offer them a solution! Its that easy…
+
+Find my recommended autoresponder on my marketing blog!</string>
+
+
+    <string name="enterfullname">Enter Full Name (To Be Displayed)</string>
+    <string name="enterdatebirth">Enter Date Of Birth (DD/MM/YYYY)</string>
+    <string name="performingroup">Do You Perform In Group?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="performer">Number Of Performers</string>
+    <string name="jathaname">Enter Jatha Name (To Be Displayed)</string>
+    <string name="altermobile">Alternate Mobile Number (If Any)</string>
+    <string name="address">Address</string>
+    <string name="pin">Pin Code</string>
+    <string name="performduration">Enter Performance Duration in mins</string>
+    <string name="tagline">Tagline (If Any)</string>
+    <string name="tellus">Tell Us About Yourself, Education,Profeesional Degrees, Achievements, Experiences, Likes etc.</string>
+
+    <string name="about">About (Biography)</string>
+    <string name="uploadpic">UPLOAD PICTURES</string>
+    <string name="uploadvideo">UPLOAD VIDEOS</string>
+    <string name="entercity">Enter City</string>
+    <string name="otherinfo">Other Info</string>
+
+    <string name="bahtarahat">Bheta Rehat/Free?</string>
+    <string name="addcharge">Add Coneyance Charge
+If Any</string>
+
+    <string-array name="country_array">
+        <item>Country</item>
+        <item>United Kingdom</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Turkey</item>
+        <item>Poland</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="state_array">
+        <item>State</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string-array name="city_array">
+        <item>City</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string-array name="more_array">
+        <item>More</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string-array name="genre_array">
+        <item>Genre</item>
+        <item>Classical</item>
+        <item>Non Classical</item>
+        <item>Only Kirtan</item>
+        <item>Kirtan+Katha</item>
+        <item>With Tanti Saaj</item>
+        <item>AKJ Style</item>
+        <item>Shadab Choki Jatha</item>
+        <item>Female Jatha</item>
+        <item>Nanaksar Style</item>
+    </string-array>
+
+    <string-array name="serve_array">
+        <item>Serve</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+
+    <string name="gurudwaraname">Enter Gurudwara Sahib Name</string>
+    <string name="orgcontactnum">Organizations Contact Number</string>
+    <string name="entermobile">Enter Your Mobile Number</string>
+    <string name="enteremail">Enter Your Email Id </string>
+    <string name="fullnum">Enter Your Full Name</string>
+
+    <string-array name="designation_array">
+        <item>Your Designation</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string-array name="timetovisit_array">
+        <item>Time To Visit</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string-array name="fixedprogram_array">
+        <item>Daily Fixed Programme</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string name="other">Others (Please Specify)</string>
+    <string name="aboutgurudwara">About (Gurudwara Sahib)</string>
+    <string name="aboutguru">Describe years old, history, importance, activities etc.</string>
+
+    <string name="servefreefood">Do You Serve Free Food
+(Langar)?</string>
+    <string name="sameplace">Same Place?</string>
+    <string name="nameplace">Enter Name Of Place</string>
+    <string name="updatecalender">PLEASE UPDATE CALENDER</string>
+    <string name="specificday">Enter Specific Days</string>
+    <string name="sewatiming">Prakash Sewa Timings</string>
+    <string name="entertiming">Enter Your Timings (HH:MM TO HH:MM)</string>
+    <string name="othertiming">Others ( Specify)</string>
+    <string name="weeklyprogram">Do You Have Weekly
+Programmes?</string>
+
+    <string name="nameofprogram">Name Of Programme</string>
+    <string name="dateandtiming">Date And Timings (DD/MM/YY, HH:MM)</string>
+    <string name="otherdetails">Other Details</string>
+    <string name="addmore">Add More</string>
+    <string name="monthlyprogram">Do You Have Monthly
+Programmes?</string>
+
+    <string name="onetimepass">ENTER ONE TIME PASSWORD </string>
+    <string name="PricePerProgramme">Bheta/Expected Price Per Programme.</string>
+
+    <string name="donotdisplay">Do Not Display (I’ll Quote On
+Request)</string>
+
+    <string name="dynamicprice">I Would Like To Keep Dynamic Price
+As Per Cities/States.</string>
+
+</resources>

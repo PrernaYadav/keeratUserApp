@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.user10.keerat.activity.activity.RegisterServiceGurudwaraSahib">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_entergurudwaraname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/gurudwaraname"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_enteraddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/address"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/sp_countryguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_array"
+        android:prompt="@string/select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:background="@drawable/drop_down_style"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"/>
+
+    <Spinner
+        android:id="@+id/sp_stateguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/state_array"
+        android:prompt="@string/select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:background="@drawable/drop_down_style"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"/>
+
+    <Spinner
+        android:id="@+id/sp_cityguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/city_array"
+        android:prompt="@string/select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:background="@drawable/drop_down_style"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"/>
+
+    <EditText
+        android:id="@+id/et_orgcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/orgcontactnum"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_enterurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/fullnum"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_entermobilenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/entermobile"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_enteremailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/enteremail"
+        android:inputType="text"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/sp_designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/designation_array"
+        android:prompt="@string/select"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:background="@drawable/drop_down_style"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"/>
+
+    <EditText
+        android:id="@+id/et_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/other"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_aboutguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutgurudwara"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="31dp"/>
+
+    <EditText
+        android:id="@+id/et_abtyourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="30dp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/aboutguru"
+        android:isScrollContainer="false"
+        android:padding="15dp"
+        android:paddingLeft="22dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+
+            <Button
+                android:id="@+id/btn_uploadpicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:padding="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/uploadpic"
+                android:textColor="#fe7a47"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_uploadvideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:padding="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/uploadvideo"
+                android:textColor="#fe7a47"
+                android:textSize="14sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_servefreefood"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:text="@string/servefreefood"
+                    android:textColor="@android:color/white" />
+                <RadioGroup
+                    android:id="@+id/rg_servefreefood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_y1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_n1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="5dp"/>
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_sameplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_sameplace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:text="@string/sameplace"
+                    android:textColor="@android:color/white" />
+                <RadioGroup
+                    android:id="@+id/rg_sameplace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="55dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_y2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="4dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_n2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                </RadioGroup>
+            </LinearLayout>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_sameplaceedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_placename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/nameplace"
+                android:textColor="@android:color/white"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_address2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+                </LinearLayout>
+
+
+
+
+            <Spinner
+                android:id="@+id/sp_country2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/country_array"
+                android:prompt="@string/select"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:background="@drawable/drop_down_style"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"/>
+
+            <Spinner
+                android:id="@+id/sp_state2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/state_array"
+                android:prompt="@string/select"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:background="@drawable/drop_down_style"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"/>
+
+            <Spinner
+                android:id="@+id/sp_city2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/city_array"
+                android:prompt="@string/select"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:background="@drawable/drop_down_style"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"/>
+
+
+            <Button
+                android:id="@+id/btn_updatecalender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:padding="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/updatecalender"
+                android:textColor="#fe7a47"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/sp_timetovisit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/timetovisit_array"
+                android:prompt="@string/select"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:background="@drawable/drop_down_style"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"/>
+
+            <EditText
+                android:id="@+id/et_specificday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/specificday"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/sp_fixedprogram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/fixedprogram_array"
+                android:prompt="@string/select"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:background="@drawable/drop_down_style"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"/>
+
+            <TextView
+                android:id="@+id/tv_sewatiming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sewatiming"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="31dp"/>
+
+            <EditText
+                android:id="@+id/et_timing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/entertiming"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/othertiming"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="31dp"/>
+
+            <EditText
+                android:id="@+id/et_othertiming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/entertiming"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_weeklyprogram"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:text="@string/weeklyprogram"
+                    android:textColor="@android:color/white" />
+                <RadioGroup
+                    android:id="@+id/rg_weeklyprogram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_y3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_n3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="5dp"/>
+                </RadioGroup>
+            </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_weeklyprogram"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_nameofprogram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/nameofprogram"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_dateandtiming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/dateandtiming"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_otherdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/otherdetails"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+
+
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/linearLayoutForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btn_addmore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:padding="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/addmore"
+                android:textColor="#fe7a47"
+                android:textSize="14sp" />
+</LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_monthlyprogram"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:text="@string/monthlyprogram"
+                    android:textColor="@android:color/white" />
+                <RadioGroup
+                    android:id="@+id/rg_monthlyprogram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_y4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/rb_n4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:buttonTint="@android:color/white"
+                        android:layout_marginLeft="5dp"/>
+                </RadioGroup>
+            </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/ll_monthlyprogram"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_nameofprogram2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/nameofprogram"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_dateandtiming2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/dateandtiming"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_otherdetail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/otherdetails"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/linearLayoutForm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </ScrollView>
+
+
+
+            <Button
+                android:id="@+id/btn_addmore2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:padding="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/addmore"
+                android:textColor="#fe7a47"
+                android:textSize="14sp" />
+</LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_submitt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:text="@string/submit"
+                android:textSize="14sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="28dp"
+                android:ems="8"
+                android:layout_marginBottom="24dp"
+                android:textColor="@android:color/white"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

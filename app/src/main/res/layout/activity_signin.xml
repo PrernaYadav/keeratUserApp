@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+   >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context="com.example.user10.keerat.activity.activity.SigninActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/login" />
+
+        <EditText
+            android:id="@+id/et_enteremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="24dp"
+            android:isScrollContainer="false"
+            android:background="@drawable/roundedet_border"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:padding="15dp"
+            android:paddingLeft="22dp"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_enterpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+            android:isScrollContainer="false"
+        android:background="@drawable/roundedet_border"
+        android:hint="@string/password"
+        android:padding="15dp"
+        android:textColorHint="@color/hintcolor"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_forgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:text="@string/forgotpasswod"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="@string/login"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            >
+
+            <View
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hintcolor" />
+
+            <TextView
+                android:id="@+id/tv_dntaccnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="20dp"
+                android:text="Don't have an account?"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:maxLines="1"/>
+
+            <View
+                android:layout_width="55dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/hintcolor"
+                />
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_newuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newuser"
+        android:textColor="#fe7a47"
+       android:background="@drawable/rounded_edittext"
+        android:layout_gravity="center"
+        android:layout_marginLeft="111dp"
+        android:layout_marginRight="111dp"
+        android:textSize="14sp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:text="@string/termcondition"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="24dp"
+       android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
