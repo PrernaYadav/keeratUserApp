@@ -34,21 +34,7 @@
                 android:textColorHint="@color/hintcolor"
                 android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/et_enterdob"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="31dp"
-                android:background="@drawable/roundedet_border"
-                android:hint="@string/enterdatebirth"
-                android:onClick="showDatePickerDialog"
-                android:padding="15dp"
-                android:paddingLeft="22dp"
-                android:textColor="@android:color/white"
-                android:textColorHint="@color/hintcolor"
-                android:textSize="14sp" />
+
 
 
             <LinearLayout
@@ -113,6 +99,23 @@
             </LinearLayout>
 
 
+            <TextView
+                android:id="@+id/et_enterdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="@string/enterdatebirth"
+                android:onClick="showDatePickerDialog"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+
             <EditText
                 android:id="@+id/et_mobileno"
                 android:layout_width="match_parent"
@@ -165,22 +168,7 @@
                 android:textSize="14sp" />
 
 
-            <EditText
-                android:id="@+id/et_nearestgurudwara"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="31dp"
-                android:background="@drawable/roundedet_border"
-                android:hint="Nearest Gurudwara Sahib"
-                android:inputType="text"
-                android:isScrollContainer="false"
-                android:padding="15dp"
-                android:paddingLeft="22dp"
-                android:textColor="@android:color/white"
-                android:textColorHint="@color/hintcolor"
-                android:textSize="14sp" />
+
 
 
             <EditText
@@ -208,7 +196,7 @@
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="31dp"
                 android:background="@drawable/roundedet_border"
-                android:hint="Address 2 (Opyional)"
+                android:hint=" Area Name Pin code"
                 android:inputType="text"
                 android:isScrollContainer="false"
                 android:padding="15dp"
@@ -217,7 +205,40 @@
                 android:textColorHint="@color/hintcolor"
                 android:textSize="14sp" />
 
+            <AutoCompleteTextView
+                android:id="@+id/auto_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="Country"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:paddingLeft="22dp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" >
+                <requestFocus />
+            </AutoCompleteTextView>
 
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="State"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" >
+                <requestFocus />
+            </AutoCompleteTextView>
             <AutoCompleteTextView
                 android:id="@+id/auto_city"
                 android:layout_width="match_parent"
@@ -262,6 +283,70 @@
                 android:background="@drawable/roundedet_border"
                 android:hint="@string/pin"
                 android:inputType="number"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_nearestgurudwara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="Nearest Gurudwara Sahib"
+                android:inputType="text"
+                android:isScrollContainer="false"
+                android:padding="15dp"
+                android:paddingLeft="22dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:checked="false" />
+
+
+                <TextView
+                    android:id="@+id/tv_cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="Same as my home area"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_gurudwaraaddres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedet_border"
+                android:hint="Address (If different from your area)"
+                android:inputType="text"
                 android:isScrollContainer="false"
                 android:padding="15dp"
                 android:paddingLeft="22dp"
@@ -319,8 +404,23 @@
                 android:textStyle="bold" />
 
 
+
+            <TextView
+                android:id="@+id/tv_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:paddingLeft="22dp"
+                android:text="Need Help ? : Call @ 8130961313"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+
         </LinearLayout>
     </ScrollView>
-
 
 </LinearLayout>

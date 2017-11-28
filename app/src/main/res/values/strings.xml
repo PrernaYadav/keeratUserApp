@@ -32,6 +32,11 @@ Societies, etc.</string>
     <string name="reference">Reference Number</string>
     <string name="signup">Sign Up</string>
 
+
+
+    <string name="booknow">Book Now</string>
+
+
     //otp
     <string name="otptext">OTP WILL BE SENT TO MOBILE NUMBER</string>
     <string name="mobile">Enter Mobile Number</string>
@@ -114,7 +119,7 @@ Find my recommended autoresponder on my marketing blog!</string>
     <string name="performer">Number Of Performers</string>
     <string name="jathaname">Enter Jatha Name (To Be Displayed)</string>
     <string name="altermobile">Alternate Mobile Number (If Any)</string>
-    <string name="address">Address</string>
+    <string name="address"> House no/Street/ Society</string>
     <string name="pin">Pin Code</string>
     <string name="performduration">Enter Performance Duration in mins</string>
     <string name="tagline">Tagline (If Any)</string>
@@ -262,5 +267,7 @@ Request)</string>
 
     <string name="dynamicprice">I Would Like To Keep Dynamic Price
 As Per Cities/States.</string>
-
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="view">VIEW</string>
 </resources>

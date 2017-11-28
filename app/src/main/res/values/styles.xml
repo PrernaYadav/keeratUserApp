@@ -16,6 +16,27 @@
 
     </style>
 
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#FFD180</item>
+        <item name="colorControlActivated">#ffffff</item>
+    </style>
+
+
+    <style name="NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:background">#81CFEB</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 
 
 
